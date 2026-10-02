@@ -123,7 +123,7 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;
 <span class="secret-star twinkle-d" style="top:68px;left:84%;font-size:10px">✦</span>
 </div>
 <div class="s1-text-block space-y-2 shrink-0 relative">
-<h1 id="text-s1-title" class="text-2xl font-black text-white drop-shadow-lg">За этим стеклом — кое-что личное</h1>
+<h1 id="text-s1-title" class="text-2xl font-black text-white drop-shadow-lg">За этим стеклом — кое-что интересное</h1>
 <p id="text-s1-sub" class="text-sm font-bold text-white/90 animate-pulse">Сотри дымку пальцем</p>
 </div>
 <div class="relative w-full aspect-square max-w-[280px] mx-auto my-auto flex items-center justify-center shrink-0">
@@ -142,9 +142,9 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;
 <div id="step-2" class="step-panel text-center flex flex-col justify-between h-full hidden-step">
 <div class="my-auto space-y-4 w-full py-4">
 <div class="w-36 h-36 mx-auto pet-stage" id="pet-stage-2"><img src="https://media.tenor.com/rAHN17V5nhQAAAAj/huh-what.gif" alt=""></div>
-<h2 id="text-s2-title" class="text-2xl font-black text-white px-2 leading-tight drop-shadow">Есть важное дело: выгулять нас двоих. Ты как?</h2>
+<h2 id="text-s2-title" class="text-2xl font-black text-white px-2 leading-tight drop-shadow">Есть важное дело: выгулять нас двоих, или двоих с половинкой. Ты как?</h2>
 <div class="relative w-full min-h-[120px] mt-6 flex items-center justify-center gap-4 px-2 overflow-visible">
-<button id="btn-yes" type="button" onclick="handleYesClick()" class="z-20 px-8 py-3.5 bg-gradient-to-r from-pink-500 to-rose-400 text-white font-extrabold text-base rounded-2xl shadow-lg shadow-pink-500/40 hover:brightness-110 active:scale-95 shrink-0" style="transform: none;"><span id="btn-yes-text">Да 😊</span></button>
+<button id="btn-yes" type="button" onclick="handleYesClick()" class="z-20 px-8 py-3.5 bg-gradient-to-r from-pink-500 to-rose-400 text-white font-extrabold text-base rounded-2xl shadow-lg shadow-pink-500/40 hover:brightness-110 active:scale-95 shrink-0" style="transform: none;"><span id="btn-yes-text">Да</span></button>
 <button id="btn-no" type="button" class="z-20 px-6 py-3.5 bg-white/30 hover:bg-white/40 text-white font-bold text-sm rounded-2xl border border-white/40 backdrop-blur-md shadow-md shrink-0" style="transform: none;"><span id="btn-no-text">Не хочу</span></button>
 </div>
 </div>
@@ -536,10 +536,6 @@ const state = {
 },
   activities: [
   {
-    name: "Кино",
-    icon: "🎬"
-  },
-  {
     name: "Прогулка",
     icon: "🌳"
   },
@@ -552,22 +548,18 @@ const state = {
     icon: "🍷"
   },
   {
-    name: "Театр",
-    icon: "🎭"
-  },
-  {
-    name: "Настолки",
+    name: "Развлечения",
     icon: "🎲"
   }
 ]
 };
 
 const defaultTexts = {
-  s1Title: "За этим стеклом — кое-что личное",
+  s1Title: "За этим стеклом — кое-что интересное",
   s1Sub: "Сотри дымку пальцем",
-  s1Card: "Есть важное дело: выгулять нас двоих. Ты как?",
-  s2Title: "Есть важное дело: выгулять нас двоих. Ты как?",
-  s2Yes: "Да 😊",
+  s1Card: "Есть важное дело: выгулять нас двоих, или двоих с половинкой. Ты как?",
+  s2Title: "Есть важное дело: выгулять нас двоих, или двоих с половинкой. Ты как?",
+  s2Yes: "Да",
   s2No: "Не хочу",
   s3Title: "Кажется, мой план сработал",
   s3Sub: "Может продолжим?",
